@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">AndroidOwnApp</string>
+
+    <!-- fragment_add_edit_task start -->
+    <string name="fragment_add_edit_task_hint_text">何をする？</string>
+    <string name="fragment_add_edit_task_important_task_text">重要なタスク</string>
+    <string name="fragment_add_edit_task_created_text">タスク作成日：</string>
+    <!-- fragment_add_edit_task end -->
+
 </resources>
