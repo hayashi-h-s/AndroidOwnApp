@@ -11,7 +11,8 @@ import java.text.DateFormat
 
 @Entity(tableName = "task_table")
 @Parcelize // id 'kotlin-android-extensions' 追加で使用可 //https://developer.android.com/kotlin/parcelize?hl=ja // 基本コンストラクタの生成？
-data class Task(
+data class Task( // データクラス https://dogwood008.github.io/kotlin-web-site-ja/docs/reference/data-classes.html //何もしない、データを保持するためだけのクラスを作成することはよくあります。そのようなクラスでは、いくつかの標準機能は、データから機械的に推論できます。Kotlinでは、これは データクラス と呼ばれ、 data としてマークされています。
+
     val name: String,
     val important: Boolean = false,
     val completed: Boolean = false,
